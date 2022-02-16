@@ -1,14 +1,14 @@
 title:              Ayden vlog
 email:              doheon46528@naver.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+description:        보안전문가가 되기 위한 일기장
+author:             Ayden Kim
 baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://aydenkimnote.github.io/blog/"
 
 # Social Profiles
 twitter_username:   
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+github_username:    
+facebook_username:  
 instagram_username:  
 linkedin_username:
 
