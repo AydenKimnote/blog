@@ -168,14 +168,14 @@ www   IN A 192.168.50.20<br>
 <br>
 소유권과 허가권의 권한을 변경한다.<br>
 <pre><code>
-[root@server1 named]# chgrp named server1.kr.zone <br>
-[root@server1 named]# chmod o-r server1.kr.zone <br>
+[root@server1 named]# chgrp named server1.kr.zone
+[root@server1 named]# chmod o-r server1.kr.zone 
 </pre></code>
 <br>
 server2.kr, server3.kr 도메인의 포워드 존파일을 생성한다.<br>
 <pre><code>
-[root@server1 named]# cp -a server1.kr.zone server2.kr.zone <br>
-[root@server1 named]# cp -a server1.kr.zone server3.kr.zone <br>
+[root@server1 named]# cp -a server1.kr.zone server2.kr.zone 
+[root@server1 named]# cp -a server1.kr.zone server3.kr.zone 
 </pre></code>
 <br>
 <br>
@@ -186,10 +186,10 @@ named-checkconf : /etc/named.rfc1912.zones 체크 <br>
 named-checkzone : 포워드 존파일 체크<br>
 <br>
 <pre><code>
-[root@server1 named]# named-checkconf /etc/named.rfc1912.zones<br>
-[root@server1 named]# named-checkzone server1.kr server1.kr.zone<br>
-[root@server1 named]# named-checkzone server2.kr server2.kr.zone<br>
-[root@server1 named]# named-checkzone server3.kr server3.kr.zone<br>
+[root@server1 named]# named-checkconf /etc/named.rfc1912.zones
+[root@server1 named]# named-checkzone server1.kr server1.kr.zone
+[root@server1 named]# named-checkzone server2.kr server2.kr.zone
+[root@server1 named]# named-checkzone server3.kr server3.kr.zone
 </pre></code>
 <br>
 <br>
